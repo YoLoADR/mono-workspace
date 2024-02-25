@@ -29,17 +29,17 @@ module.exports = {
         library: { type: "module" },
 
         // For remotes (please adjust)
-        // name: "hostApp",
+        name: "hostApp",
         // filename: "remoteEntry.js",
         // exposes: {
         //     './Component': './projects/host-app/src/app/app.component.ts',
         // },        
         
         // For hosts (please adjust)
-        // remotes: {
-        //     "mfeApp": "http://localhost:4200/remoteEntry.js",
+        remotes: {
+            "mfeApp": "http://localhost:4200/remoteEntry.js",
 
-        // },
+        },
 
         shared: share({
           "@angular/core": { singleton: true, strictVersion: true, requiredVersion: 'auto' }, 

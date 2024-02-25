@@ -29,11 +29,11 @@ module.exports = {
         library: { type: "module" },
 
         // For remotes (please adjust)
-        // name: "mfeApp",
-        // filename: "remoteEntry.js",
-        // exposes: {
-        //     './Component': './projects/mfe-app/src/app/app.component.ts',
-        // },        
+        name: "mfeApp",
+        filename: "remoteEntry.js",
+        exposes: {
+            './Component': './projects/mfe-app/src/app/app.component.ts',
+        },        
         
         // For hosts (please adjust)
         // remotes: {
