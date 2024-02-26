@@ -32,8 +32,9 @@ module.exports = {
         name: "mfeApp",
         filename: "remoteEntry.js",
         exposes: {
-            './Component': './projects/mfe-app/src/app/app.component.ts',
-        },        
+          './HelloComponent': './projects/mfe-app/src/app/hello/hello.component.ts',
+          './RegistrationModule': './projects/mfe-app/src/app/registration/registration.module.ts',
+        },      
         
         // For hosts (please adjust)
         // remotes: {
